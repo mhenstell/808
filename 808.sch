@@ -6688,6 +6688,55 @@ NS Package M08A</description>
 <text x="-1.27" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="POTENTIOMETER-PTV09">
+<wire x1="-5.3" y1="1.1" x2="-3.5" y2="1.1" width="0.127" layer="46"/>
+<wire x1="-3.5" y1="1.1" x2="-3.5" y2="-1.1" width="0.127" layer="46"/>
+<wire x1="-3.5" y1="-1.1" x2="-5.3" y2="-1.1" width="0.127" layer="46"/>
+<wire x1="-5.3" y1="-1.1" x2="-5.3" y2="1.1" width="0.127" layer="46"/>
+<wire x1="3.5" y1="1.1" x2="5.3" y2="1.1" width="0.127" layer="46"/>
+<wire x1="5.3" y1="1.1" x2="5.3" y2="-1.1" width="0.127" layer="46"/>
+<wire x1="5.3" y1="-1.1" x2="3.5" y2="-1.1" width="0.127" layer="46"/>
+<wire x1="3.5" y1="-1.1" x2="3.5" y2="1.1" width="0.127" layer="46"/>
+<pad name="P$1" x="-2.5" y="-7" drill="1" diameter="1.8" shape="square"/>
+<pad name="P$2" x="0" y="-7" drill="1" diameter="1.8"/>
+<pad name="P$3" x="2.5" y="-7" drill="1" diameter="1.8"/>
+<hole x="-4.4" y="0" drill="1.8"/>
+<hole x="4.4" y="0" drill="1.8"/>
+<wire x1="-4.85" y1="5.5" x2="4.85" y2="5.5" width="0.127" layer="21"/>
+<wire x1="4.85" y1="5.5" x2="4.85" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="4.85" y1="-5.5" x2="-4.85" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-5.5" x2="-4.85" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-5.5" x2="-4.85" y2="-8.35" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-8.35" x2="4.85" y2="-8.35" width="0.127" layer="21"/>
+<wire x1="4.85" y1="-8.35" x2="4.85" y2="-5.5" width="0.127" layer="21"/>
+<text x="-5.5" y="-8.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.5" y="-8.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+</package>
+<package name="POTENTIOMETER-CTS296">
+<wire x1="-4.7" y1="6.35" x2="-4.7" y2="3.65" width="0.127" layer="46"/>
+<wire x1="-4.7" y1="3.65" x2="-6.3" y2="3.65" width="0.127" layer="46"/>
+<wire x1="-6.3" y1="3.65" x2="-6.3" y2="6.35" width="0.127" layer="46"/>
+<wire x1="-6.3" y1="6.35" x2="-4.7" y2="6.35" width="0.127" layer="46"/>
+<wire x1="6.3" y1="6.35" x2="6.3" y2="3.65" width="0.127" layer="46"/>
+<wire x1="6.3" y1="3.65" x2="4.7" y2="3.65" width="0.127" layer="46"/>
+<wire x1="4.7" y1="3.65" x2="4.7" y2="6.35" width="0.127" layer="46"/>
+<wire x1="4.7" y1="6.35" x2="6.3" y2="6.35" width="0.127" layer="46"/>
+<pad name="P$1" x="-3.75" y="-5" drill="1.3" diameter="2.5" shape="square"/>
+<pad name="P$2" x="0" y="-5" drill="1.3" diameter="2.5"/>
+<pad name="P$3" x="3.75" y="-5" drill="1.3" diameter="2.5"/>
+<hole x="-5.5" y="5" drill="1.6"/>
+<hole x="5.5" y="5" drill="1.6"/>
+<wire x1="6.125" y1="6.4" x2="6.125" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="6.125" y1="-6.4" x2="-6.125" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-6.125" y1="-6.4" x2="6.125" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="6.125" y1="-6.4" x2="-6.125" y2="-6.4" width="0.127" layer="21"/>
+<wire x1="-6.125" y1="-6.4" x2="-6.125" y2="6.4" width="0.127" layer="21"/>
+<wire x1="-6.125" y1="6.4" x2="6.125" y2="6.4" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.828425" width="0.127" layer="21"/>
+<text x="-7" y="-6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="8" y="-6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POT">
@@ -6722,6 +6771,26 @@ NS Package M08A</description>
 </gates>
 <devices>
 <device name="THUMB-3352" package="POTENTIOMETER-3352P">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="E" pad="P$3"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTV09-H" package="POTENTIOMETER-PTV09">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="E" pad="P$3"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CTS296" package="POTENTIOMETER-CTS296">
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="E" pad="P$3"/>
@@ -7034,6 +7103,7 @@ SMT- SWCH-08247</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="DATABASE" value="../partsdb.txt"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -7043,82 +7113,194 @@ SMT- SWCH-08247</description>
 </classes>
 <parts>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device="" value="+15V"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="1M"/>
-<part name="T1" library="transistor-neu-to92" deviceset="BC846" device=""/>
-<part name="T2" library="transistor-neu-to92" deviceset="BC846" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
+<attribute name="PARTNO" value="RC2012F105CS"/>
+</part>
+<part name="T1" library="transistor-neu-to92" deviceset="BC846" device="">
+<attribute name="PARTNO" value="BC846BMTF"/>
+</part>
+<part name="T2" library="transistor-neu-to92" deviceset="BC846" device="">
+<attribute name="PARTNO" value="BC846BMTF"/>
+</part>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="100nF">
+<attribute name="PARTNO" value="C0805C104K5RACTU"/>
+</part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="2.7k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="2.7k">
+<attribute name="PARTNO" value="RMCF0805JT2K70"/>
+</part>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="8.2k"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="22k"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="33nF"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="1M"/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="8.2k">
+<attribute name="PARTNO" value="RMCF0805JT8K20"/>
+</part>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
+<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+</part>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="33nF">
+<attribute name="PARTNO" value="CL21B333KBANNNC"/>
+</part>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
+<attribute name="PARTNO" value="RC2012J104CS"/>
+</part>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
+<attribute name="PARTNO" value="RC2012F105CS"/>
+</part>
+<part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148">
+<attribute name="PARTNO" value="1N4148WS"/>
+</part>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="T3" library="transistor-neu-to92" deviceset="BC846" device=""/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="6.8k"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="47k"/>
+<part name="T3" library="transistor-neu-to92" deviceset="BC846" device="">
+<attribute name="PARTNO" value="BC846BMTF"/>
+</part>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="6.8k">
+<attribute name="PARTNO" value="MCR10ERTF6801"/>
+</part>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
+<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+</part>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="15nF"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value="15nF"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="1M"/>
-<part name="T4" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC856B"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="T5" library="transistor-neu-to92" deviceset="BC846" device=""/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="15nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB153"/>
+</part>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value="15nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB153"/>
+</part>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
+<attribute name="PARTNO" value="RC2012F105CS"/>
+</part>
+<part name="T4" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC856B" value="BC856">
+<attribute name="PARTNO" value="BC856BMTF"/>
+</part>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k">
+<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+</part>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
+<attribute name="PARTNO" value="RC2012J103CS"/>
+</part>
+<part name="T5" library="transistor-neu-to92" deviceset="BC846" device="">
+<attribute name="PARTNO" value="BC846BMTF"/>
+</part>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="22k"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
+<attribute name="PARTNO" value="RC2012J103CS"/>
+</part>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
+<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+</part>
+<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="C0805C104K5RACTU"/>
+</part>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
+<attribute name="PARTNO" value="RC2012J104CS"/>
+</part>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="15nF"/>
-<part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k"/>
+<part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A">
+<attribute name="PARTNO" value="FDLL914A"/>
+</part>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="15nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB153"/>
+</part>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
+<attribute name="PARTNO" value="RC2012J104CS"/>
+</part>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k">
+<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+</part>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="D3" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148"/>
-<part name="IC1" library="linear" deviceset="TL072" device="D"/>
-<part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="220R"/>
-<part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="D3" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148">
+<attribute name="PARTNO" value="1N4148WS"/>
+</part>
+<part name="IC1" library="linear" deviceset="TL072" device="D">
+<attribute name="PARTNO" value="TL072SG-13"/>
+</part>
+<part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="220R">
+<attribute name="PARTNO" value="RMCF0805JT220R"/>
+</part>
+<part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
+<attribute name="PARTNO" value="RC2012J103CS"/>
+</part>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="100nF">
+<attribute name="PARTNO" value="C0805C104K5RACTU"/>
+</part>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="808" deviceset="POT" device="THUMB-3352" value="10k"/>
-<part name="C8" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF"/>
-<part name="R20" library="808" deviceset="POT" device="THUMB-3352" value="10k"/>
+<part name="R19" library="808" deviceset="POT" device="PTV09-H" value="10k Log">
+<attribute name="PARTNO" value="PTV09A-4020F-A103"/>
+</part>
+<part name="C8" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF / 50v">
+<attribute name="PARTNO" value="EEE-1HAR47AR"/>
+</part>
+<part name="R20" library="808" deviceset="POT" device="CTS296" value="100k Lin">
+<attribute name="PARTNO" value="296UD104B1N"/>
+</part>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="C9" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF / 50v"/>
-<part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="82k"/>
-<part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="C9" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF / 50v">
+<attribute name="PARTNO" value="EEE-1HAR47AR"/>
+</part>
+<part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="82k">
+<attribute name="PARTNO" value="RMCF0805JT82K0"/>
+</part>
+<part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
+<attribute name="PARTNO" value="RC2012J104CS"/>
+</part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="T6" library="transistor-neu-to92" deviceset="BC846" device=""/>
-<part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="6.8k"/>
+<part name="T6" library="transistor-neu-to92" deviceset="BC846" device="">
+<attribute name="PARTNO" value="BC846BMTF"/>
+</part>
+<part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="6.8k">
+<attribute name="PARTNO" value="MCR10ERTF6801"/>
+</part>
 <part name="SUPPLY12" library="supply2" deviceset="VCC" device="" value="-15V"/>
-<part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="220pF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="220pF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB221"/>
+</part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="VCC" device="" value="+15V"/>
-<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="47k"/>
-<part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="470k"/>
-<part name="R26" library="808" deviceset="POT" device="THUMB-3352" value="500k"/>
-<part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="47k"/>
-<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="22k"/>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
+<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+</part>
+<part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="470k">
+<attribute name="PARTNO" value="RMCF0805JT470K"/>
+</part>
+<part name="R26" library="808" deviceset="POT" device="PTV09-H" value="500k Lin">
+<attribute name="PARTNO" value="296UD504B1N"/>
+</part>
+<part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
+<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+</part>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
+<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+</part>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="C11" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF"/>
-<part name="C12" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="1uF / 50v"/>
-<part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="C11" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF">
+<attribute name="PARTNO" value="EEE-1AA330WAR"/>
+</part>
+<part name="C12" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="1uF / 50v">
+<attribute name="PARTNO" value="EEE-1HA010SR"/>
+</part>
+<part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
+<attribute name="PARTNO" value="RC2012J102CS"/>
+</part>
+<part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
+<attribute name="PARTNO" value="RC2012J104CS"/>
+</part>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="VCC" device="" value="-15V"/>
 <part name="SUPPLY18" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="SUPPLY19" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="SUPPLY20" library="supply2" deviceset="VCC" device="" value="-15V"/>
-<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C14" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="C0805C104K5RACTU"/>
+</part>
+<part name="C14" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="C0805C104K5RACTU"/>
+</part>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="Accent"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="Trigger"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="Accent">
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS"/>
+</part>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="Trigger">
+<attribute name="PARTNO" value="PTS525SM10SMTR LFS"/>
+</part>
 <part name="SUPPLY22" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="SUPPLY23" library="supply2" deviceset="VCC" device="" value="+15V"/>
 </parts>
@@ -7128,84 +7310,196 @@ SMT- SWCH-08247</description>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="-66.04" y="152.4"/>
-<instance part="R1" gate="G$1" x="-66.04" y="137.16" rot="R90"/>
-<instance part="T1" gate="G$1" x="-68.58" y="116.84"/>
-<instance part="T2" gate="G$1" x="-50.8" y="124.46"/>
-<instance part="C1" gate="G$1" x="-58.42" y="116.84"/>
+<instance part="R1" gate="G$1" x="-66.04" y="137.16" rot="R90">
+<attribute name="PARTNO" x="-66.04" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="T1" gate="G$1" x="-68.58" y="116.84">
+<attribute name="PARTNO" x="-68.58" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="T2" gate="G$1" x="-50.8" y="124.46">
+<attribute name="PARTNO" x="-50.8" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="-58.42" y="116.84">
+<attribute name="PARTNO" x="-58.42" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY2" gate="GND" x="-58.42" y="96.52"/>
-<instance part="R2" gate="G$1" x="-78.74" y="109.22" rot="R90"/>
+<instance part="R2" gate="G$1" x="-78.74" y="109.22" rot="R90">
+<attribute name="PARTNO" x="-78.74" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="GND" x="-78.74" y="96.52"/>
-<instance part="R3" gate="G$1" x="-91.44" y="116.84"/>
-<instance part="R4" gate="G$1" x="-48.26" y="139.7" rot="R90"/>
-<instance part="C2" gate="G$1" x="-33.02" y="147.32" rot="R90"/>
-<instance part="R5" gate="G$1" x="-30.48" y="91.44"/>
-<instance part="R6" gate="G$1" x="-17.78" y="147.32"/>
-<instance part="D1" gate="G$1" x="-25.4" y="139.7" rot="R270"/>
+<instance part="R3" gate="G$1" x="-91.44" y="116.84">
+<attribute name="PARTNO" x="-91.44" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="-48.26" y="139.7" rot="R90">
+<attribute name="PARTNO" x="-48.26" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="-33.02" y="147.32" rot="R90">
+<attribute name="PARTNO" x="-33.02" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="-30.48" y="91.44">
+<attribute name="PARTNO" x="-30.48" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="-17.78" y="147.32">
+<attribute name="PARTNO" x="-17.78" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="-25.4" y="139.7" rot="R270">
+<attribute name="PARTNO" x="-25.4" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY4" gate="GND" x="-25.4" y="129.54"/>
-<instance part="T3" gate="G$1" x="-17.78" y="91.44"/>
-<instance part="R7" gate="G$1" x="-10.16" y="106.68" rot="R90"/>
-<instance part="R8" gate="G$1" x="-10.16" y="91.44" rot="R90"/>
+<instance part="T3" gate="G$1" x="-17.78" y="91.44">
+<attribute name="PARTNO" x="-17.78" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="-10.16" y="106.68" rot="R90">
+<attribute name="PARTNO" x="-10.16" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="-10.16" y="91.44" rot="R90">
+<attribute name="PARTNO" x="-10.16" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY5" gate="GND" x="-10.16" y="78.74"/>
-<instance part="C3" gate="G$1" x="-17.78" y="114.3" rot="R90"/>
-<instance part="C4" gate="G$1" x="-5.08" y="114.3" rot="R90"/>
-<instance part="R9" gate="G$1" x="-10.16" y="71.12"/>
-<instance part="T4" gate="G$1" x="-68.58" y="43.18"/>
-<instance part="R10" gate="G$1" x="-73.66" y="53.34" rot="R90"/>
-<instance part="R11" gate="G$1" x="-73.66" y="33.02" rot="R90"/>
-<instance part="T5" gate="G$1" x="-76.2" y="20.32"/>
+<instance part="C3" gate="G$1" x="-17.78" y="114.3" rot="R90">
+<attribute name="PARTNO" x="-17.78" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="-5.08" y="114.3" rot="R90">
+<attribute name="PARTNO" x="-5.08" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="-10.16" y="71.12">
+<attribute name="PARTNO" x="-10.16" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="T4" gate="G$1" x="-68.58" y="43.18">
+<attribute name="PARTNO" x="-68.58" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="-73.66" y="53.34" rot="R90">
+<attribute name="PARTNO" x="-73.66" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="-73.66" y="33.02" rot="R90">
+<attribute name="PARTNO" x="-73.66" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="T5" gate="G$1" x="-76.2" y="20.32">
+<attribute name="PARTNO" x="-76.2" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY6" gate="GND" x="-73.66" y="-2.54"/>
-<instance part="R12" gate="G$1" x="-83.82" y="10.16" rot="R90"/>
-<instance part="R13" gate="G$1" x="-83.82" y="35.56" rot="R90"/>
-<instance part="C5" gate="G$1" x="-91.44" y="45.72" rot="R90"/>
-<instance part="R14" gate="G$1" x="-96.52" y="35.56" rot="R90"/>
+<instance part="R12" gate="G$1" x="-83.82" y="10.16" rot="R90">
+<attribute name="PARTNO" x="-83.82" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R13" gate="G$1" x="-83.82" y="35.56" rot="R90">
+<attribute name="PARTNO" x="-83.82" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="-91.44" y="45.72" rot="R90">
+<attribute name="PARTNO" x="-91.44" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="-96.52" y="35.56" rot="R90">
+<attribute name="PARTNO" x="-96.52" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="GND" x="-96.52" y="22.86"/>
-<instance part="D2" gate="G$1" x="-104.14" y="45.72"/>
-<instance part="C6" gate="G$1" x="-48.26" y="40.64" rot="R90"/>
-<instance part="R15" gate="G$1" x="-45.72" y="30.48"/>
-<instance part="R16" gate="G$1" x="-30.48" y="25.4" rot="R90"/>
+<instance part="D2" gate="G$1" x="-104.14" y="45.72">
+<attribute name="PARTNO" x="-104.14" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="-48.26" y="40.64" rot="R90">
+<attribute name="PARTNO" x="-48.26" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="-45.72" y="30.48">
+<attribute name="PARTNO" x="-45.72" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="-30.48" y="25.4" rot="R90">
+<attribute name="PARTNO" x="-30.48" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="GND" x="-30.48" y="12.7"/>
-<instance part="D3" gate="G$1" x="-20.32" y="25.4" rot="R90"/>
-<instance part="IC1" gate="A" x="-10.16" y="48.26"/>
+<instance part="D3" gate="G$1" x="-20.32" y="25.4" rot="R90">
+<attribute name="PARTNO" x="-20.32" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IC1" gate="A" x="-10.16" y="48.26">
+<attribute name="PARTNO" x="-10.16" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC1" gate="B" x="53.34" y="101.6"/>
-<instance part="R17" gate="G$1" x="12.7" y="104.14" rot="R90"/>
-<instance part="R18" gate="G$1" x="25.4" y="86.36" rot="R90"/>
-<instance part="C7" gate="G$1" x="12.7" y="63.5"/>
+<instance part="R17" gate="G$1" x="12.7" y="104.14" rot="R90">
+<attribute name="PARTNO" x="12.7" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R18" gate="G$1" x="25.4" y="86.36" rot="R90">
+<attribute name="PARTNO" x="25.4" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="12.7" y="63.5">
+<attribute name="PARTNO" x="12.7" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY9" gate="GND" x="12.7" y="50.8"/>
-<instance part="R19" gate="G$1" x="12.7" y="83.82"/>
-<instance part="C8" gate="G$1" x="35.56" y="73.66" rot="R270"/>
-<instance part="R20" gate="G$1" x="43.18" y="63.5"/>
+<instance part="R19" gate="G$1" x="12.7" y="83.82">
+<attribute name="PARTNO" x="12.7" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="35.56" y="73.66" rot="R270">
+<attribute name="PARTNO" x="35.56" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R20" gate="G$1" x="43.18" y="63.5">
+<attribute name="PARTNO" x="43.18" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY10" gate="GND" x="43.18" y="50.8"/>
-<instance part="C9" gate="G$1" x="55.88" y="63.5" rot="R90"/>
-<instance part="R21" gate="G$1" x="71.12" y="63.5"/>
-<instance part="R22" gate="G$1" x="81.28" y="53.34" rot="R90"/>
+<instance part="C9" gate="G$1" x="55.88" y="63.5" rot="R90">
+<attribute name="PARTNO" x="55.88" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R21" gate="G$1" x="71.12" y="63.5">
+<attribute name="PARTNO" x="71.12" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R22" gate="G$1" x="81.28" y="53.34" rot="R90">
+<attribute name="PARTNO" x="81.28" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY11" gate="GND" x="81.28" y="40.64"/>
-<instance part="T6" gate="G$1" x="88.9" y="63.5"/>
-<instance part="R23" gate="G$1" x="91.44" y="48.26" rot="R90"/>
+<instance part="T6" gate="G$1" x="88.9" y="63.5">
+<attribute name="PARTNO" x="88.9" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R23" gate="G$1" x="91.44" y="48.26" rot="R90">
+<attribute name="PARTNO" x="91.44" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY12" gate="G$1" x="91.44" y="35.56" rot="R180"/>
-<instance part="C10" gate="G$1" x="101.6" y="50.8"/>
+<instance part="C10" gate="G$1" x="101.6" y="50.8">
+<attribute name="PARTNO" x="101.6" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY13" gate="GND" x="101.6" y="40.64"/>
 <instance part="SUPPLY14" gate="G$1" x="91.44" y="76.2"/>
-<instance part="R24" gate="G$1" x="25.4" y="114.3"/>
-<instance part="R25" gate="G$1" x="22.86" y="147.32"/>
-<instance part="R26" gate="G$1" x="45.72" y="127" rot="R90"/>
-<instance part="R27" gate="G$1" x="53.34" y="114.3"/>
-<instance part="R28" gate="G$1" x="48.26" y="88.9" rot="R180"/>
+<instance part="R24" gate="G$1" x="25.4" y="114.3">
+<attribute name="PARTNO" x="25.4" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R25" gate="G$1" x="22.86" y="147.32">
+<attribute name="PARTNO" x="22.86" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="45.72" y="127" rot="R90">
+<attribute name="PARTNO" x="45.72" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R27" gate="G$1" x="53.34" y="114.3">
+<attribute name="PARTNO" x="53.34" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R28" gate="G$1" x="48.26" y="88.9" rot="R180">
+<attribute name="PARTNO" x="48.26" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY15" gate="GND" x="55.88" y="81.28"/>
-<instance part="C11" gate="G$1" x="60.96" y="127" rot="R90"/>
-<instance part="C12" gate="G$1" x="101.6" y="68.58" rot="R180"/>
-<instance part="R29" gate="G$1" x="101.6" y="91.44" rot="R90"/>
-<instance part="R30" gate="G$1" x="114.3" y="73.66" rot="R90"/>
+<instance part="C11" gate="G$1" x="60.96" y="127" rot="R90">
+<attribute name="PARTNO" x="60.96" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="101.6" y="68.58" rot="R180">
+<attribute name="PARTNO" x="101.6" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R29" gate="G$1" x="101.6" y="91.44" rot="R90">
+<attribute name="PARTNO" x="101.6" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R30" gate="G$1" x="114.3" y="73.66" rot="R90">
+<attribute name="PARTNO" x="114.3" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY16" gate="GND" x="114.3" y="63.5"/>
 <instance part="IC1" gate="P" x="-10.16" y="48.26"/>
 <instance part="SUPPLY17" gate="G$1" x="-10.16" y="35.56" rot="R180"/>
 <instance part="SUPPLY18" gate="G$1" x="-10.16" y="60.96"/>
 <instance part="SUPPLY19" gate="G$1" x="25.4" y="43.18"/>
 <instance part="SUPPLY20" gate="G$1" x="25.4" y="12.7" rot="R180"/>
-<instance part="C13" gate="G$1" x="25.4" y="35.56"/>
-<instance part="C14" gate="G$1" x="25.4" y="22.86"/>
+<instance part="C13" gate="G$1" x="25.4" y="35.56">
+<attribute name="PARTNO" x="25.4" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="25.4" y="22.86">
+<attribute name="PARTNO" x="25.4" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY21" gate="GND" x="35.56" y="22.86"/>
-<instance part="S1" gate="S" x="60.96" y="10.16"/>
-<instance part="S2" gate="S" x="91.44" y="10.16"/>
+<instance part="S1" gate="S" x="60.96" y="10.16">
+<attribute name="PARTNO" x="60.96" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S2" gate="S" x="91.44" y="10.16">
+<attribute name="PARTNO" x="91.44" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY22" gate="G$1" x="53.34" y="17.78"/>
 <instance part="SUPPLY23" gate="G$1" x="83.82" y="17.78"/>
 </instances>
