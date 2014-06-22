@@ -6606,6 +6606,7 @@ NS Package M08A</description>
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<circle x="-3.048" y="-2.286" radius="0.254" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6891,6 +6892,35 @@ NS Package M08A</description>
 <text x="-2.54" y="-2.25" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.81" y="-2.25" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="CUI-352X-SMT">
+<smd name="1" x="-4.6" y="-3.7" dx="2.2" dy="2.8" layer="1"/>
+<smd name="2" x="4.8" y="-3.7" dx="2.8" dy="2.8" layer="1" rot="R90"/>
+<smd name="4" x="8.7" y="0.75" dx="2.8" dy="2.8" layer="1" rot="R180"/>
+<smd name="3" x="-2.6" y="3.2" dx="2.2" dy="2.5" layer="1"/>
+<hole x="-3.5" y="0" drill="1.7"/>
+<hole x="3.5" y="0" drill="1.7"/>
+<wire x1="-9.5" y1="2.5" x2="7.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="2.5" x2="7.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-2.5" x2="-9.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-9.5" y1="-2.5" x2="-9.5" y2="2.5" width="0.127" layer="21"/>
+<text x="-8" y="3" size="0.8128" layer="25">&gt;NAME</text>
+<text x="2" y="3" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-7" y1="1.27" x2="-7" y2="-1.27" width="0.127" layer="21"/>
+</package>
+<package name="1X02-5.08-SCREWTERM">
+<pad name="P1" x="-2.54" y="0" drill="1.016" shape="square"/>
+<pad name="P2" x="2.54" y="0" drill="1.016" shape="square"/>
+<wire x1="-4" y1="3.25" x2="4" y2="3.25" width="0.127" layer="21"/>
+<wire x1="4" y1="3.25" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="4" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="4" y1="-3.25" x2="-4" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-4" y1="-3.25" x2="-4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-4" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<text x="-0.54" y="3.5" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.04" y="-4.5" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-2.54" size="0.3048" layer="48">FRONT</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP-POL">
@@ -6904,6 +6934,35 @@ NS Package M08A</description>
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="AUDIO-JACK-3P">
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="-5.08" y="3.048" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.286" y="-2.286" size="1.016" layer="94" ratio="15">L</text>
+<text x="2.286" y="0.254" size="1.016" layer="94" ratio="15">R</text>
+<rectangle x1="-7.62" y1="-0.762" x2="-2.54" y2="0.762" layer="94" rot="R90"/>
+<pin name="RIGHT" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="LEFT" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="SLEEVE" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="M02">
+<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6952,6 +7011,39 @@ NS Package M08A</description>
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIO-JACK-3P">
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK-3P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI-352X-SMT">
+<connects>
+<connect gate="G$1" pin="LEFT" pad="2"/>
+<connect gate="G$1" pin="RIGHT" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER">
+<gates>
+<gate name="G$1" symbol="M02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02-5.08-SCREWTERM">
+<connects>
+<connect gate="G$1" pin="1" pad="P2"/>
+<connect gate="G$1" pin="2" pad="P1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7108,7 +7200,8 @@ SMT- SWCH-08247</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0.3302">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -7223,13 +7316,13 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="C0805C104K5RACTU"/>
 </part>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="808" deviceset="POT" device="PTV09-H" value="10k Log">
+<part name="R19" library="808" deviceset="POT" device="PTV09-H" value="Tone / 10k Log">
 <attribute name="PARTNO" value="PTV09A-4020F-A103"/>
 </part>
 <part name="C8" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF / 50v">
 <attribute name="PARTNO" value="EEE-1HAR47AR"/>
 </part>
-<part name="R20" library="808" deviceset="POT" device="CTS296" value="100k Lin">
+<part name="R20" library="808" deviceset="POT" device="CTS296" value="Level / 100k Lin">
 <attribute name="PARTNO" value="296UD104B1N"/>
 </part>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
@@ -7261,7 +7354,7 @@ SMT- SWCH-08247</description>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="470k">
 <attribute name="PARTNO" value="RMCF0805JT470K"/>
 </part>
-<part name="R26" library="808" deviceset="POT" device="PTV09-H" value="500k Lin">
+<part name="R26" library="808" deviceset="POT" device="PTV09-H" value="Decay / 500k Lin">
 <attribute name="PARTNO" value="296UD504B1N"/>
 </part>
 <part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
@@ -7303,6 +7396,9 @@ SMT- SWCH-08247</description>
 </part>
 <part name="SUPPLY22" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="SUPPLY23" library="supply2" deviceset="VCC" device="" value="+15V"/>
+<part name="JP1" library="Livestream" deviceset="AUDIO-JACK-3P" device=""/>
+<part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
+<part name="J1" library="Livestream" deviceset="HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7502,6 +7598,9 @@ SMT- SWCH-08247</description>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="53.34" y="17.78"/>
 <instance part="SUPPLY23" gate="G$1" x="83.82" y="17.78"/>
+<instance part="JP1" gate="G$1" x="111.76" y="134.62" rot="R180"/>
+<instance part="SUPPLY24" gate="GND" x="104.14" y="124.46"/>
+<instance part="J1" gate="G$1" x="7.62" y="27.94"/>
 </instances>
 <busses>
 </busses>
@@ -7620,6 +7719,12 @@ SMT- SWCH-08247</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 <junction x="25.4" y="27.94"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="SLEEVE"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<wire x1="106.68" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="132.08" x2="104.14" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7940,6 +8045,16 @@ SMT- SWCH-08247</description>
 <pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 <wire x1="-10.16" y1="40.64" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
+<junction x="25.4" y="17.78"/>
+</segment>
 </net>
 <net name="+15V" class="0">
 <segment>
@@ -7973,6 +8088,16 @@ SMT- SWCH-08247</description>
 <wire x1="86.36" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="10.16" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<junction x="25.4" y="38.1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -8046,17 +8171,15 @@ SMT- SWCH-08247</description>
 <wire x1="101.6" y1="96.52" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
 <label x="101.6" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-</net>
-<net name="VCC" class="0">
 <segment>
-<pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
-<wire x1="25.4" y1="17.78" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="LEFT"/>
+<wire x1="106.68" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="RIGHT"/>
+<wire x1="106.68" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<label x="99.06" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="104.14" y="137.16"/>
 </segment>
 </net>
 </nets>
