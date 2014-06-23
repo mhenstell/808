@@ -7396,7 +7396,9 @@ SMT- SWCH-08247</description>
 </part>
 <part name="SUPPLY22" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="SUPPLY23" library="supply2" deviceset="VCC" device="" value="+15V"/>
-<part name="JP1" library="Livestream" deviceset="AUDIO-JACK-3P" device=""/>
+<part name="JP1" library="Livestream" deviceset="AUDIO-JACK-3P" device="">
+<attribute name="PARTNO" value="SJ-3523-SMT-TR"/>
+</part>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="Livestream" deviceset="HEADER" device=""/>
 </parts>
@@ -7598,7 +7600,9 @@ SMT- SWCH-08247</description>
 </instance>
 <instance part="SUPPLY22" gate="G$1" x="53.34" y="17.78"/>
 <instance part="SUPPLY23" gate="G$1" x="83.82" y="17.78"/>
-<instance part="JP1" gate="G$1" x="111.76" y="134.62" rot="R180"/>
+<instance part="JP1" gate="G$1" x="111.76" y="134.62" rot="R180">
+<attribute name="PARTNO" x="111.76" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY24" gate="GND" x="104.14" y="124.46"/>
 <instance part="J1" gate="G$1" x="7.62" y="27.94"/>
 </instances>
