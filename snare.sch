@@ -3410,9 +3410,11 @@ NS Package M08A</description>
 </classes>
 <parts>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF">
+<attribute name="PARTNO" value="C0805C682K5RACTU"/>
+</part>
 <part name="T1" library="transistor-neu-to92" deviceset="BC846" device="">
 <attribute name="PARTNO" value="BC846BMTF"/>
 </part>
@@ -3424,14 +3426,14 @@ NS Package M08A</description>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k">
-<attribute name="PARTNO" value="RC2012J103CS"/>
+<attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k">
-<attribute name="PARTNO" value="RC2012J103CS"/>
+<attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7k">
-<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+<attribute name="PARTNO" value="RMCF0805FT4K70"/>
 </part>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD" value="ACCENT">
 <attribute name="PARTNO" value="PTS525SM10SMTR LFS"/>
@@ -3439,57 +3441,89 @@ NS Package M08A</description>
 <part name="SUPPLY3" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="IC1" library="linear" deviceset="TL072" device="D">
 <attribute name="PARTNO" value="TL072SG-13"/>
 </part>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="680R"/>
-<part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="27nF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="27nF"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="680R"/>
-<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="820R"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47nF"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="8.2k">
-<attribute name="PARTNO" value="RMCF0805JT8K20"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="680R">
+<attribute name="PARTNO" value="RMCF0805FT680R"/>
 </part>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220R"/>
+<part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="27nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB273"/>
+</part>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="27nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB273"/>
+</part>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="680R">
+<attribute name="PARTNO" value="RMCF0805FT680R"/>
+</part>
+<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="820R">
+<attribute name="PARTNO" value="RMCF0805FT820R"/>
+</part>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47nF">
+<attribute name="PARTNO" value="C0805C473K5RACTU"/>
+</part>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="8.2k">
+<attribute name="PARTNO" value="RMCF0805FT8K20"/>
+</part>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220R">
+<attribute name="PARTNO" value="RMCF0805FT220R"/>
+</part>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY9" library="supply2" deviceset="VCC" device="" value="-15V"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF">
+<attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.2k"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="6.8nF">
+<attribute name="PARTNO" value="C0805C682K5RACTU"/>
+</part>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1M">
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
+</part>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.2k">
+<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+</part>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47nF"/>
-<part name="R14" library="808" deviceset="POT" device="CTS296" value="100k Lin"/>
-<part name="R15" library="808" deviceset="POT" device="PTV09-H" value="22k Log"/>
-<part name="R16" library="808" deviceset="POT" device="PTV09-V" value="100k Log"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47nF">
+<attribute name="PARTNO" value="C0805C473K5RACTU"/>
+</part>
+<part name="R14" library="808" deviceset="POT" device="CTS296" value="100k Lin">
+<attribute name="PARTNO" value="296UD104B1N"/>
+</part>
+<part name="R15" library="808" deviceset="POT" device="PTV09-H" value="22k Log">
+<attribute name="PARTNO" value="PTV09A-4025F-A203"/>
+</part>
+<part name="R16" library="808" deviceset="POT" device="PTV09-V" value="100k Log">
+<attribute name="PARTNO" value="PTV09A-2020F-A104"/>
+</part>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="IC2" library="linear" deviceset="TL072" device="D">
 <attribute name="PARTNO" value="TL072SG-13"/>
 </part>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470k">
-<attribute name="PARTNO" value="RMCF0805JT470K"/>
+<attribute name="PARTNO" value="CRCW0805470KFKEA"/>
 </part>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="220pF"/>
-<part name="C9" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="220pF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB221"/>
+</part>
+<part name="C9" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v">
+<attribute name="PARTNO" value="EEE-1AA330WAR"/>
+</part>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k">
-<attribute name="PARTNO" value="RC2012J102CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1K00"/>
 </part>
 <part name="JP2" library="Livestream" deviceset="AUDIO-JACK-3P" device="">
 <attribute name="PARTNO" value="SJ-3523-SMT-TR"/>
@@ -3512,16 +3546,20 @@ NS Package M08A</description>
 <part name="SUPPLY15" library="supply2" deviceset="VCC" device="" value="-15v"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
 </part>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330k"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300k"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330k">
+<attribute name="PARTNO" value="RMCF0805FT330K"/>
+</part>
+<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="300k">
+<attribute name="PARTNO" value="RMCF0805FT300K"/>
+</part>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="C14" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="1uF / 50v">
 <attribute name="PARTNO" value="EEE-1HA010SR"/>
 </part>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7k">
-<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+<attribute name="PARTNO" value="RMCF0805FT4K70"/>
 </part>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="T3" library="transistor-neu-to92" deviceset="BC846" device="">
@@ -3529,65 +3567,93 @@ NS Package M08A</description>
 </part>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
 </part>
 <part name="T4" library="transistor" deviceset="2N3704" device="">
 <attribute name="PARTNO" value="2N3704"/>
 </part>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R">
+<attribute name="PARTNO" value="RMCF0805FT100R"/>
+</part>
 <part name="C15" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="47uF / 16v">
 <attribute name="PARTNO" value="EEE-1HAR47AR"/>
 </part>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="VCC" device="" value="+15v"/>
-<part name="R27" library="808" deviceset="POT" device="PTV09-H" value="10k Log"/>
+<part name="R27" library="808" deviceset="POT" device="PTV09-H" value="10k Log">
+<attribute name="PARTNO" value="PTV09A-4020F-A103"/>
+</part>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k">
-<attribute name="PARTNO" value="RC2012J102CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1K00"/>
 </part>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="33k"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="33k">
+<attribute name="PARTNO" value="RMCF0805FT33K0"/>
+</part>
 <part name="T5" library="transistor-neu-to92" deviceset="BC846" device="">
 <attribute name="PARTNO" value="BC846BMTF"/>
 </part>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330R"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="330R">
+<attribute name="PARTNO" value="RMCF0805FT330R"/>
+</part>
 <part name="C16" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="47uF / 16v">
 <attribute name="PARTNO" value="EEE-1HAR47AR"/>
 </part>
-<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R">
+<attribute name="PARTNO" value="RMCF0805FT100R"/>
+</part>
 <part name="SUPPLY24" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="C17" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF / 50v">
 <attribute name="PARTNO" value="EEE-1HAR47AR"/>
 </part>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15k"/>
+<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15k">
+<attribute name="PARTNO" value="RMCF0805FT15K0"/>
+</part>
 <part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="PARTNO" value="C0805C104K5RACTU"/>
 </part>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15k"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="15k">
+<attribute name="PARTNO" value="RMCF0805FT15K0"/>
+</part>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148">
 <attribute name="PARTNO" value="1N4148WS"/>
 </part>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1nF"/>
+<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1nF">
+<attribute name="PARTNO" value="C0805C102K5RACTU"/>
+</part>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.7nF"/>
+<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.7nF">
+<attribute name="PARTNO" value="CC0805KRX7R9BB272"/>
+</part>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
-<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R"/>
+<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R">
+<attribute name="PARTNO" value="RMCF0805FT100R"/>
+</part>
 <part name="T6" library="transistor-neu-to92" deviceset="BC846" device="">
 <attribute name="PARTNO" value="BC846BMTF"/>
 </part>
 <part name="SUPPLY30" library="supply2" deviceset="VCC" device="" value="+15v"/>
-<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.2M"/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22nF"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.8nF"/>
-<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.8nF"/>
+<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.2M">
+<attribute name="PARTNO" value="RC0805FR-072M2L"/>
+</part>
+<part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22nF">
+<attribute name="PARTNO" value="CL21B223KBANNNC"/>
+</part>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.8nF">
+<attribute name="PARTNO" value="08055C182KAT2A"/>
+</part>
+<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.8nF">
+<attribute name="PARTNO" value="08055C182KAT2A"/>
+</part>
 <part name="R36" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="T7" library="transistor-neu-to92" deviceset="BC846" device="">
@@ -3595,11 +3661,15 @@ NS Package M08A</description>
 </part>
 <part name="SUPPLY32" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="R38" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
 <part name="SUPPLY33" library="supply2" deviceset="VCC" device="" value="-15V"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10nF"/>
-<part name="R39" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="27k"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10nF">
+<attribute name="PARTNO" value="GRM216R71H103KA01D"/>
+</part>
+<part name="R39" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="27k">
+<attribute name="PARTNO" value="RMCF0805FT27K0"/>
+</part>
 <part name="JP1" library="Livestream" deviceset="HEADER" device=""/>
 <part name="SUPPLY34" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY35" library="supply2" deviceset="VCC" device="" value="-15V"/>
@@ -3612,7 +3682,9 @@ NS Package M08A</description>
 <instance part="R1" gate="G$1" x="-17.78" y="86.36" rot="R90">
 <attribute name="PARTNO" x="-17.78" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="71.12" rot="R270"/>
+<instance part="C1" gate="G$1" x="27.94" y="71.12" rot="R270">
+<attribute name="PARTNO" x="27.94" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="T1" gate="G$1" x="-2.54" y="76.2">
 <attribute name="PARTNO" x="-2.54" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3646,35 +3718,63 @@ NS Package M08A</description>
 </instance>
 <instance part="IC1" gate="B" x="109.22" y="86.36"/>
 <instance part="IC1" gate="P" x="109.22" y="86.36"/>
-<instance part="R6" gate="G$1" x="43.18" y="60.96" rot="R90"/>
+<instance part="R6" gate="G$1" x="43.18" y="60.96" rot="R90">
+<attribute name="PARTNO" x="43.18" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="48.26"/>
-<instance part="C2" gate="G$1" x="55.88" y="104.14" rot="R270"/>
-<instance part="C3" gate="G$1" x="68.58" y="104.14" rot="R270"/>
-<instance part="R7" gate="G$1" x="63.5" y="93.98" rot="R90"/>
+<instance part="C2" gate="G$1" x="55.88" y="104.14" rot="R270">
+<attribute name="PARTNO" x="55.88" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="68.58" y="104.14" rot="R270">
+<attribute name="PARTNO" x="68.58" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="63.5" y="93.98" rot="R90">
+<attribute name="PARTNO" x="63.5" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY6" gate="GND" x="63.5" y="83.82"/>
-<instance part="R8" gate="G$1" x="63.5" y="111.76"/>
-<instance part="C4" gate="G$1" x="76.2" y="58.42"/>
+<instance part="R8" gate="G$1" x="63.5" y="111.76">
+<attribute name="PARTNO" x="63.5" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="76.2" y="58.42">
+<attribute name="PARTNO" x="76.2" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R9" gate="G$1" x="88.9" y="96.52" rot="R90">
 <attribute name="PARTNO" x="88.9" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="88.9" y="81.28" rot="R90"/>
+<instance part="R10" gate="G$1" x="88.9" y="81.28" rot="R90">
+<attribute name="PARTNO" x="88.9" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="GND" x="88.9" y="71.12"/>
 <instance part="SUPPLY8" gate="G$1" x="109.22" y="99.06"/>
 <instance part="SUPPLY9" gate="G$1" x="109.22" y="73.66" rot="R180"/>
-<instance part="C5" gate="G$1" x="101.6" y="129.54" rot="R270"/>
-<instance part="C6" gate="G$1" x="114.3" y="129.54" rot="R270"/>
+<instance part="C5" gate="G$1" x="101.6" y="129.54" rot="R270">
+<attribute name="PARTNO" x="101.6" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="114.3" y="129.54" rot="R270">
+<attribute name="PARTNO" x="114.3" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R11" gate="G$1" x="109.22" y="137.16">
 <attribute name="PARTNO" x="109.22" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R12" gate="G$1" x="109.22" y="119.38" rot="R90"/>
+<instance part="R12" gate="G$1" x="109.22" y="119.38" rot="R90">
+<attribute name="PARTNO" x="109.22" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY10" gate="GND" x="109.22" y="109.22"/>
 <instance part="R13" gate="G$1" x="127" y="76.2" rot="R90">
 <attribute name="PARTNO" x="127" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="127" y="60.96"/>
-<instance part="R14" gate="G$1" x="157.48" y="88.9" rot="R90"/>
-<instance part="R15" gate="G$1" x="218.44" y="10.16" rot="R90"/>
-<instance part="R16" gate="G$1" x="127" y="45.72"/>
+<instance part="C7" gate="G$1" x="127" y="60.96">
+<attribute name="PARTNO" x="127" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="157.48" y="88.9" rot="R90">
+<attribute name="PARTNO" x="157.48" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="218.44" y="10.16" rot="R90">
+<attribute name="PARTNO" x="218.44" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="127" y="45.72">
+<attribute name="PARTNO" x="127" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R17" gate="G$1" x="139.7" y="45.72">
 <attribute name="PARTNO" x="139.7" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3690,8 +3790,12 @@ NS Package M08A</description>
 <instance part="R19" gate="G$1" x="162.56" y="60.96">
 <attribute name="PARTNO" x="162.56" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="162.56" y="71.12" rot="R90"/>
-<instance part="C9" gate="G$1" x="175.26" y="88.9" rot="R270"/>
+<instance part="C8" gate="G$1" x="162.56" y="71.12" rot="R90">
+<attribute name="PARTNO" x="162.56" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="175.26" y="88.9" rot="R270">
+<attribute name="PARTNO" x="175.26" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R20" gate="G$1" x="190.5" y="48.26">
 <attribute name="PARTNO" x="190.5" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3718,8 +3822,12 @@ NS Package M08A</description>
 <instance part="R21" gate="G$1" x="248.92" y="10.16">
 <attribute name="PARTNO" x="248.92" y="10.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R22" gate="G$1" x="233.68" y="-2.54" rot="R90"/>
-<instance part="R23" gate="G$1" x="231.14" y="-30.48" rot="R90"/>
+<instance part="R22" gate="G$1" x="233.68" y="-2.54" rot="R90">
+<attribute name="PARTNO" x="233.68" y="-2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R23" gate="G$1" x="231.14" y="-30.48" rot="R90">
+<attribute name="PARTNO" x="231.14" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY17" gate="GND" x="231.14" y="-43.18"/>
 <instance part="C14" gate="G$1" x="220.98" y="-15.24" rot="R90">
 <attribute name="PARTNO" x="220.98" y="-15.24" size="1.778" layer="96" display="off"/>
@@ -3739,54 +3847,82 @@ NS Package M08A</description>
 <attribute name="PARTNO" x="190.5" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="GND" x="190.5" y="-43.18"/>
-<instance part="R26" gate="G$1" x="175.26" y="-5.08" rot="R90"/>
+<instance part="R26" gate="G$1" x="175.26" y="-5.08" rot="R90">
+<attribute name="PARTNO" x="175.26" y="-5.08" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C15" gate="G$1" x="175.26" y="-27.94">
 <attribute name="PARTNO" x="175.26" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY21" gate="GND" x="175.26" y="-43.18"/>
 <instance part="SUPPLY22" gate="G$1" x="175.26" y="7.62"/>
-<instance part="R27" gate="G$1" x="17.78" y="15.24"/>
+<instance part="R27" gate="G$1" x="17.78" y="15.24">
+<attribute name="PARTNO" x="17.78" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R28" gate="G$1" x="17.78" y="-2.54" rot="R90">
 <attribute name="PARTNO" x="17.78" y="-2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="17.78" y="-15.24"/>
-<instance part="R29" gate="G$1" x="30.48" y="15.24"/>
+<instance part="R29" gate="G$1" x="30.48" y="15.24">
+<attribute name="PARTNO" x="30.48" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="T5" gate="G$1" x="40.64" y="15.24">
 <attribute name="PARTNO" x="40.64" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R30" gate="G$1" x="50.8" y="22.86"/>
+<instance part="R30" gate="G$1" x="50.8" y="22.86">
+<attribute name="PARTNO" x="50.8" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C16" gate="G$1" x="63.5" y="17.78">
 <attribute name="PARTNO" x="63.5" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R31" gate="G$1" x="73.66" y="22.86"/>
+<instance part="R31" gate="G$1" x="73.66" y="22.86">
+<attribute name="PARTNO" x="73.66" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY24" gate="G$1" x="83.82" y="27.94"/>
 <instance part="SUPPLY25" gate="GND" x="63.5" y="7.62"/>
 <instance part="C17" gate="G$1" x="43.18" y="-5.08">
 <attribute name="PARTNO" x="43.18" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="43.18" y="-15.24"/>
-<instance part="R32" gate="G$1" x="50.8" y="0"/>
+<instance part="R32" gate="G$1" x="50.8" y="0">
+<attribute name="PARTNO" x="50.8" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C18" gate="G$1" x="58.42" y="-7.62">
 <attribute name="PARTNO" x="58.42" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY27" gate="GND" x="58.42" y="-15.24"/>
-<instance part="R33" gate="G$1" x="68.58" y="0"/>
+<instance part="R33" gate="G$1" x="68.58" y="0">
+<attribute name="PARTNO" x="68.58" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D1" gate="G$1" x="76.2" y="-22.86" rot="R270">
 <attribute name="PARTNO" x="76.2" y="-22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C19" gate="G$1" x="81.28" y="-7.62"/>
+<instance part="C19" gate="G$1" x="81.28" y="-7.62">
+<attribute name="PARTNO" x="81.28" y="-7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY28" gate="GND" x="81.28" y="-15.24"/>
-<instance part="C20" gate="G$1" x="58.42" y="-43.18"/>
+<instance part="C20" gate="G$1" x="58.42" y="-43.18">
+<attribute name="PARTNO" x="58.42" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY29" gate="GND" x="58.42" y="-53.34"/>
-<instance part="R34" gate="G$1" x="71.12" y="-48.26"/>
+<instance part="R34" gate="G$1" x="71.12" y="-48.26">
+<attribute name="PARTNO" x="71.12" y="-48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="T6" gate="G$1" x="83.82" y="-40.64" rot="MR0">
 <attribute name="PARTNO" x="83.82" y="-40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY30" gate="G$1" x="99.06" y="-22.86"/>
-<instance part="R35" gate="G$1" x="99.06" y="-33.02" rot="R90"/>
-<instance part="C21" gate="G$1" x="109.22" y="-40.64" rot="R90"/>
-<instance part="C22" gate="G$1" x="93.98" y="0" rot="R90"/>
-<instance part="C23" gate="G$1" x="106.68" y="0" rot="R90"/>
+<instance part="R35" gate="G$1" x="99.06" y="-33.02" rot="R90">
+<attribute name="PARTNO" x="99.06" y="-33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="109.22" y="-40.64" rot="R90">
+<attribute name="PARTNO" x="109.22" y="-40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C22" gate="G$1" x="93.98" y="0" rot="R90">
+<attribute name="PARTNO" x="93.98" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C23" gate="G$1" x="106.68" y="0" rot="R90">
+<attribute name="PARTNO" x="106.68" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R36" gate="G$1" x="99.06" y="-10.16" rot="R90">
 <attribute name="PARTNO" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
@@ -3802,8 +3938,12 @@ NS Package M08A</description>
 <attribute name="PARTNO" x="121.92" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY33" gate="G$1" x="121.92" y="-35.56" rot="R180"/>
-<instance part="C24" gate="G$1" x="134.62" y="-17.78" rot="R90"/>
-<instance part="R39" gate="G$1" x="147.32" y="7.62" rot="R90"/>
+<instance part="C24" gate="G$1" x="134.62" y="-17.78" rot="R90">
+<attribute name="PARTNO" x="134.62" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R39" gate="G$1" x="147.32" y="7.62" rot="R90">
+<attribute name="PARTNO" x="147.32" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="JP1" gate="G$1" x="38.1" y="142.24"/>
 <instance part="SUPPLY34" gate="G$1" x="48.26" y="149.86"/>
 <instance part="SUPPLY35" gate="G$1" x="48.26" y="137.16" rot="R180"/>
