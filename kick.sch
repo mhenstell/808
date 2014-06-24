@@ -7207,7 +7207,7 @@ SMT- SWCH-08247</description>
 <parts>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
 </part>
 <part name="T1" library="transistor-neu-to92" deviceset="BC846" device="">
 <attribute name="PARTNO" value="BC846BMTF"/>
@@ -7220,23 +7220,23 @@ SMT- SWCH-08247</description>
 </part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="2.7k">
-<attribute name="PARTNO" value="RMCF0805JT2K70"/>
+<attribute name="PARTNO" value="RMCF0805FT2K70"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="8.2k">
-<attribute name="PARTNO" value="RMCF0805JT8K20"/>
+<attribute name="PARTNO" value="RMCF0805FT8K20"/>
 </part>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="33nF">
 <attribute name="PARTNO" value="CL21B333KBANNNC"/>
 </part>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
 </part>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148">
 <attribute name="PARTNO" value="1N4148WS"/>
@@ -7249,7 +7249,7 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="MCR10ERTF6801"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="15nF">
@@ -7259,32 +7259,32 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="CC0805KRX7R9BB153"/>
 </part>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="RC2012F105CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1M00"/>
 </part>
 <part name="T4" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC856B" value="BC856">
 <attribute name="PARTNO" value="BC856BMTF"/>
 </part>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k">
-<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+<attribute name="PARTNO" value="RMCF0805FT4K70"/>
 </part>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="RC2012J103CS"/>
+<attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="T5" library="transistor-neu-to92" deviceset="BC846" device="">
 <attribute name="PARTNO" value="BC846BMTF"/>
 </part>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="RC2012J103CS"/>
+<attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
 <part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="C0805C104K5RACTU"/>
 </part>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A">
@@ -7294,10 +7294,10 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="CC0805KRX7R9BB153"/>
 </part>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="4.7k">
-<attribute name="PARTNO" value="RMCF0805JT4K70"/>
+<attribute name="PARTNO" value="RMCF0805FT4K70"/>
 </part>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SOD-323F" value="1N4148">
@@ -7307,10 +7307,10 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="TL072SG-13"/>
 </part>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="220R">
-<attribute name="PARTNO" value="RMCF0805JT220R"/>
+<attribute name="PARTNO" value="RMCF0805FT220R"/>
 </part>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="RC2012J103CS"/>
+<attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="100nF">
 <attribute name="PARTNO" value="C0805C104K5RACTU"/>
@@ -7330,10 +7330,10 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="EEE-1HAR47AR"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="82k">
-<attribute name="PARTNO" value="RMCF0805JT82K0"/>
+<attribute name="PARTNO" value="RMCF0805FT82K0"/>
 </part>
 <part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="T6" library="transistor-neu-to92" deviceset="BC846" device="">
@@ -7349,19 +7349,19 @@ SMT- SWCH-08247</description>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="VCC" device="" value="+15V"/>
 <part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="470k">
-<attribute name="PARTNO" value="RMCF0805JT470K"/>
+<attribute name="PARTNO" value="CRCW0805470KFKEA"/>
 </part>
 <part name="R26" library="808" deviceset="POT" device="PTV09-H" value="Decay / 500k Lin">
 <attribute name="PARTNO" value="296UD504B1N"/>
 </part>
 <part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="47k">
-<attribute name="PARTNO" value="RMCF0805JT47K0"/>
+<attribute name="PARTNO" value="RMCF0805FT47K0"/>
 </part>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="22k">
-<attribute name="PARTNO" value="RMCF0805JT22K0"/>
+<attribute name="PARTNO" value="RMCF0805FT22K0"/>
 </part>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="C11" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF">
@@ -7371,10 +7371,10 @@ SMT- SWCH-08247</description>
 <attribute name="PARTNO" value="EEE-1HA010SR"/>
 </part>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RC2012J102CS"/>
+<attribute name="PARTNO" value="RMCF0805FT1K00"/>
 </part>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="100k">
-<attribute name="PARTNO" value="RC2012J104CS"/>
+<attribute name="PARTNO" value="RMCF0805FT100K"/>
 </part>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="VCC" device="" value="-15V"/>

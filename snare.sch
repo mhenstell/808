@@ -3460,8 +3460,8 @@ NS Package M08A</description>
 <attribute name="PARTNO" value="RMCF0805FT680R"/>
 </part>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="820R">
-<attribute name="PARTNO" value="RMCF0805FT820R"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="820k">
+<attribute name="PARTNO" value="RC0805FR-07820KL"/>
 </part>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47nF">
 <attribute name="PARTNO" value="C0805C473K5RACTU"/>

@@ -147,6 +147,7 @@
 TR808 Snare v0.1
 6/2014</text>
 <text x="47" y="0.4" size="1.9304" layer="1" font="vector">Plover</text>
+<text x="56.5" y="21.7" size="1.778" layer="30" font="vector" rot="MR270">Plover</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -722,10 +723,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.588" y="31.791" size="0.4064" layer="27" rot="R270"/>
 <attribute name="PARTNO" value="RMCF0805FT680R" x="3.975" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0805" value="820R" x="7.25" y="32.985" smashed="yes">
+<element name="R8" library="SparkFun-Resistors" package="0805" value="820k" x="7.25" y="32.985" smashed="yes">
 <attribute name="NAME" x="5.888" y="33.8105" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="7.234" y="31.788" size="0.4064" layer="27"/>
-<attribute name="PARTNO" value="RMCF0805FT820R" x="7.25" y="32.985" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="RC0805FR-07820KL" x="7.25" y="32.985" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0805" value="47nF" x="24.13" y="20.955" smashed="yes">
 <attribute name="NAME" x="22.968" y="21.7805" size="0.4064" layer="25"/>
