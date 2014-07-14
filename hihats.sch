@@ -3666,7 +3666,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="BC846BMTF"/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47"/>
+<part name="C1" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47">
+<attribute name="PARTNO" value="EEE-1HAR47AR"/>
+</part>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1M">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
@@ -3695,13 +3697,17 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="33K">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
-<part name="C2" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="47uF / 16v"/>
+<part name="C2" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="47uF / 16v">
+<attribute name="PARTNO" value="EEE-1CA470WR"/>
+</part>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100R">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="SUPPLY18" library="supply2" deviceset="VCC" device="" value="+15v"/>
-<part name="R25" library="808" deviceset="POT" device="THUMB-3352" value="2M"/>
+<part name="R25" library="808" deviceset="POT" device="THUMB-3352" value="2M">
+<attribute name="PARTNO" value="3352P-1-205LF"/>
+</part>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="33k">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
@@ -3723,7 +3729,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
-<part name="D1" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A"/>
+<part name="D1" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A">
+<attribute name="PARTNO" value="FDLL914A"/>
+</part>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.5nF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
@@ -3759,15 +3767,21 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="IC1" library="linear" deviceset="TL072" device="D"/>
+<part name="IC1" library="linear" deviceset="TL072" device="D">
+<attribute name="PARTNO" value="TL072SG-13"/>
+</part>
 <part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470k">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="220pF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
-<part name="C10" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v"/>
-<part name="R36" library="808" deviceset="POT" device="CTS296" value="100k Lin"/>
+<part name="C10" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v">
+<attribute name="PARTNO" value="EEE-1AA330WAR"/>
+</part>
+<part name="R36" library="808" deviceset="POT" device="CTS296" value="100k Lin">
+<attribute name="PARTNO" value="296UD104B1N"/>
+</part>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
@@ -3792,7 +3806,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
-<part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A"/>
+<part name="D2" library="semicon-smd-ipc" deviceset="D-" device="MLL-34" value="FDLL914A">
+<attribute name="PARTNO" value="FDLL914A"/>
+</part>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1.5nF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
@@ -3834,12 +3850,18 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="220pF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
-<part name="C18" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v"/>
-<part name="R47" library="808" deviceset="POT" device="CTS296" value="100k Lin"/>
+<part name="C18" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="33uF / 6.3v">
+<attribute name="PARTNO" value="EEE-1AA330WAR"/>
+</part>
+<part name="R47" library="808" deviceset="POT" device="CTS296" value="100k Lin">
+<attribute name="PARTNO" value="296UD104B1N"/>
+</part>
 <part name="R48" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
-<part name="C19" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF"/>
+<part name="C19" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="0.47uF">
+<attribute name="PARTNO" value="UWJ1HR47MCL1GB"/>
+</part>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY39" library="supply2" deviceset="VCC" device="" value="-15V"/>
@@ -3850,9 +3872,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
-<part name="J1" library="Livestream" deviceset="AUDIO-JACK-3P" device=""/>
+<part name="J1" library="Livestream" deviceset="AUDIO-JACK-3P" device="">
+<attribute name="PARTNO" value="SJ-3523-SMT-TR"/>
+</part>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
-<part name="IC2" library="45xx" deviceset="4584" device="D"/>
+<part name="IC2" library="45xx" deviceset="4584" device="D">
+<attribute name="PARTNO" value="BU4584BF-E2"/>
+</part>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22nF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
@@ -3919,7 +3945,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="R61" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="22k">
 <attribute name="PARTNO" value="RMCF0805FT10K0"/>
 </part>
-<part name="IC3" library="linear" deviceset="TL072" device="D"/>
+<part name="IC3" library="linear" deviceset="TL072" device="D">
+<attribute name="PARTNO" value="TL072SG-13"/>
+</part>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3nF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
@@ -3942,7 +3970,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2uF">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
-<part name="IC4" library="SparkFun-PowerIC" deviceset="V_REG_MIC5205" device="5V" value="5V"/>
+<part name="IC4" library="SparkFun-PowerIC" deviceset="V_REG_MIC5205" device="5V" value="5V">
+<attribute name="PARTNO" value="MIC5205-5.0YM5 TR"/>
+</part>
 <part name="SUPPLY55" library="supply2" deviceset="VCC" device="" value="+15v"/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
@@ -3950,7 +3980,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
-<part name="C33" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="10uF / 16v"/>
+<part name="C33" library="Livestream" deviceset="CAP-POL" device="PANASONIC_B-2" value="10uF / 16v">
+<attribute name="PARTNO" value="EEE-1VA100WAR"/>
+</part>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -4060,7 +4092,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" x="-38.1" y="-30.48" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="-43.18" y="-43.18"/>
-<instance part="C1" gate="G$1" x="-38.1" y="-10.16"/>
+<instance part="C1" gate="G$1" x="-38.1" y="-10.16">
+<attribute name="PARTNO" x="-38.1" y="-10.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R18" gate="G$1" x="-30.48" y="-12.7" rot="R90">
 <attribute name="PARTNO" x="-30.48" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
@@ -4089,13 +4123,17 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="R23" gate="G$1" x="7.62" y="-63.5">
 <attribute name="PARTNO" x="7.62" y="-63.5" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="-15.24" y="38.1"/>
+<instance part="C2" gate="G$1" x="-15.24" y="38.1">
+<attribute name="PARTNO" x="-15.24" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY17" gate="GND" x="-15.24" y="27.94"/>
 <instance part="R24" gate="G$1" x="-2.54" y="45.72">
 <attribute name="PARTNO" x="-2.54" y="45.72" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="7.62" y="53.34"/>
-<instance part="R25" gate="G$1" x="-55.88" y="12.7"/>
+<instance part="R25" gate="G$1" x="-55.88" y="12.7">
+<attribute name="PARTNO" x="-55.88" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R26" gate="G$1" x="48.26" y="81.28">
 <attribute name="PARTNO" x="48.26" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -4117,7 +4155,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" x="58.42" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY21" gate="GND" x="58.42" y="30.48"/>
-<instance part="D1" gate="G$1" x="63.5" y="45.72" rot="R180"/>
+<instance part="D1" gate="G$1" x="63.5" y="45.72" rot="R180">
+<attribute name="PARTNO" x="63.5" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C4" gate="G$1" x="68.58" y="38.1">
 <attribute name="PARTNO" x="68.58" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -4153,15 +4193,21 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" x="121.92" y="20.32" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="114.3" y="15.24"/>
-<instance part="IC1" gate="A" x="144.78" y="25.4"/>
+<instance part="IC1" gate="A" x="144.78" y="25.4">
+<attribute name="PARTNO" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R35" gate="G$1" x="149.86" y="38.1">
 <attribute name="PARTNO" x="149.86" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="144.78" y="45.72" rot="R90">
 <attribute name="PARTNO" x="144.78" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="142.24" y="55.88" rot="R270"/>
-<instance part="R36" gate="G$1" x="154.94" y="55.88" rot="R90"/>
+<instance part="C10" gate="G$1" x="142.24" y="55.88" rot="R270">
+<attribute name="PARTNO" x="142.24" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R36" gate="G$1" x="154.94" y="55.88" rot="R90">
+<attribute name="PARTNO" x="154.94" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R37" gate="G$1" x="165.1" y="73.66" rot="R90">
 <attribute name="PARTNO" x="165.1" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
@@ -4186,7 +4232,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" x="58.42" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY29" gate="GND" x="58.42" y="-45.72"/>
-<instance part="D2" gate="G$1" x="63.5" y="-30.48" rot="R180"/>
+<instance part="D2" gate="G$1" x="63.5" y="-30.48" rot="R180">
+<attribute name="PARTNO" x="63.5" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C13" gate="G$1" x="68.58" y="-38.1">
 <attribute name="PARTNO" x="68.58" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -4229,12 +4277,18 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="C17" gate="G$1" x="147.32" y="-17.78" rot="R90">
 <attribute name="PARTNO" x="147.32" y="-17.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="147.32" y="-7.62" rot="R270"/>
-<instance part="R47" gate="G$1" x="160.02" y="-7.62" rot="R90"/>
+<instance part="C18" gate="G$1" x="147.32" y="-7.62" rot="R270">
+<attribute name="PARTNO" x="147.32" y="-7.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R47" gate="G$1" x="160.02" y="-7.62" rot="R90">
+<attribute name="PARTNO" x="160.02" y="-7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R48" gate="G$1" x="170.18" y="73.66" rot="R90">
 <attribute name="PARTNO" x="170.18" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C19" gate="G$1" x="-5.08" y="-68.58"/>
+<instance part="C19" gate="G$1" x="-5.08" y="-68.58">
+<attribute name="PARTNO" x="-5.08" y="-68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY37" gate="GND" x="-5.08" y="-78.74"/>
 <instance part="IC1" gate="P" x="154.94" y="-48.26"/>
 <instance part="SUPPLY38" gate="G$1" x="154.94" y="-33.02"/>
@@ -4246,9 +4300,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="PARTNO" x="162.56" y="-58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY40" gate="GND" x="167.64" y="-63.5"/>
-<instance part="J1" gate="G$1" x="170.18" y="93.98" rot="R270"/>
+<instance part="J1" gate="G$1" x="170.18" y="93.98" rot="R270">
+<attribute name="PARTNO" x="170.18" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY41" gate="GND" x="175.26" y="78.74"/>
-<instance part="C33" gate="G$1" x="-63.5" y="-33.02"/>
+<instance part="C33" gate="G$1" x="-63.5" y="-33.02">
+<attribute name="PARTNO" x="-63.5" y="-33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY59" gate="GND" x="-63.5" y="-43.18"/>
 </instances>
 <busses>
@@ -5140,7 +5198,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <plain>
 </plain>
 <instances>
-<instance part="IC2" gate="A" x="17.78" y="114.3"/>
+<instance part="IC2" gate="A" x="17.78" y="114.3">
+<attribute name="PARTNO" x="17.78" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC2" gate="B" x="17.78" y="81.28"/>
 <instance part="IC2" gate="C" x="17.78" y="60.96"/>
 <instance part="IC2" gate="D" x="17.78" y="40.64"/>
@@ -5213,7 +5273,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="R61" gate="G$1" x="63.5" y="50.8">
 <attribute name="PARTNO" x="63.5" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="IC3" gate="A" x="83.82" y="53.34"/>
+<instance part="IC3" gate="A" x="83.82" y="53.34">
+<attribute name="PARTNO" x="83.82" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC3" gate="B" x="83.82" y="10.16"/>
 <instance part="IC3" gate="P" x="83.82" y="10.16"/>
 <instance part="SUPPLY48" gate="GND" x="71.12" y="43.18"/>
@@ -5238,7 +5300,9 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="C31" gate="G$1" x="101.6" y="121.92">
 <attribute name="PARTNO" x="101.6" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="IC4" gate="G$1" x="83.82" y="124.46"/>
+<instance part="IC4" gate="G$1" x="83.82" y="124.46">
+<attribute name="PARTNO" x="83.82" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY55" gate="G$1" x="63.5" y="137.16"/>
 <instance part="SUPPLY56" gate="GND" x="68.58" y="114.3"/>
 <instance part="SUPPLY57" gate="GND" x="101.6" y="114.3"/>

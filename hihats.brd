@@ -761,7 +761,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="T8" library="transistor-neu-to92" package="SOT23" value="BC846" x="35.59" y="13" rot="R90">
 <attribute name="PARTNO" value="BC846BMTF" x="64.8" y="76.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="Livestream" package="PANASONIC_VS_B-2" value="0.47" x="38.72" y="17.75" rot="R180"/>
+<element name="C1" library="Livestream" package="PANASONIC_VS_B-2" value="0.47" x="38.72" y="17.75" rot="R180">
+<attribute name="PARTNO" value="EEE-1HAR47AR" x="38.72" y="17.75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R18" library="SparkFun-Resistors" package="0805" value="1M" x="42.21" y="16.81" rot="R90">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="101.9" y="89.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -786,11 +788,15 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R23" library="SparkFun-Resistors" package="0805" value="33K" x="-30.48" y="63.5">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="Livestream" package="PANASONIC_VS_B-2" value="47uF / 16v" x="-73.66" y="36.83"/>
+<element name="C2" library="Livestream" package="PANASONIC_VS_B-2" value="47uF / 16v" x="-73.66" y="36.83">
+<attribute name="PARTNO" value="EEE-1CA470WR" x="-73.66" y="36.83" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R24" library="SparkFun-Resistors" package="0805" value="100R" x="-34.29" y="63.5">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R25" library="808" package="POTENTIOMETER-3352P" value="2M" x="28.39" y="3.25"/>
+<element name="R25" library="808" package="POTENTIOMETER-3352P" value="2M" x="28.39" y="3.25">
+<attribute name="PARTNO" value="3352P-1-205LF" x="28.39" y="3.25" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R26" library="SparkFun-Resistors" package="0805" value="33k" x="-38.1" y="63.5">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
@@ -809,7 +815,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C3" library="SparkFun-Capacitors" package="0805" value="22nF" x="-27.94" y="50.8">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="semicon-smd-ipc" package="MELF-MLL34" value="FDLL914A" x="-29.21" y="44.45"/>
+<element name="D1" library="semicon-smd-ipc" package="MELF-MLL34" value="FDLL914A" x="-29.21" y="44.45">
+<attribute name="PARTNO" value="FDLL914A" x="-29.21" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C4" library="SparkFun-Capacitors" package="0805" value="1.5nF" x="-31.75" y="50.8">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
@@ -840,15 +848,21 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R34" library="SparkFun-Resistors" package="0805" value="47k" x="-68.58" y="63.5">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="linear" package="SO08" value="TL072D" x="-39.37" y="19.05"/>
+<element name="IC1" library="linear" package="SO08" value="TL072D" x="-39.37" y="19.05">
+<attribute name="PARTNO" value="TL072SG-13" x="-39.37" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R35" library="SparkFun-Resistors" package="0805" value="470k" x="-72.39" y="63.5">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0805" value="220pF" x="-50.8" y="50.8">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="Livestream" package="PANASONIC_VS_B-2" value="33uF / 6.3v" x="-55.88" y="36.83"/>
-<element name="R36" library="808" package="POTENTIOMETER-CTS296" value="100k Lin" x="-21.59" y="7.62"/>
+<element name="C10" library="Livestream" package="PANASONIC_VS_B-2" value="33uF / 6.3v" x="-55.88" y="36.83">
+<attribute name="PARTNO" value="EEE-1AA330WAR" x="-55.88" y="36.83" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R36" library="808" package="POTENTIOMETER-CTS296" value="100k Lin" x="-21.59" y="7.62">
+<attribute name="PARTNO" value="296UD104B1N" x="-21.59" y="7.62" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R37" library="SparkFun-Resistors" package="0805" value="1k" x="-15.24" y="67.31">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
@@ -870,7 +884,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C12" library="SparkFun-Capacitors" package="0805" value="1.5nF" x="-58.42" y="50.8">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="semicon-smd-ipc" package="MELF-MLL34" value="FDLL914A" x="-39.37" y="44.45"/>
+<element name="D2" library="semicon-smd-ipc" package="MELF-MLL34" value="FDLL914A" x="-39.37" y="44.45">
+<attribute name="PARTNO" value="FDLL914A" x="-39.37" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C13" library="SparkFun-Capacitors" package="0805" value="1.5nF" x="-62.23" y="50.8">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
@@ -907,20 +923,30 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C17" library="SparkFun-Capacitors" package="0805" value="220pF" x="-15.24" y="55.88">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C18" library="Livestream" package="PANASONIC_VS_B-2" value="33uF / 6.3v" x="-64.77" y="36.83"/>
-<element name="R47" library="808" package="POTENTIOMETER-CTS296" value="100k Lin" x="-39.37" y="7.62"/>
+<element name="C18" library="Livestream" package="PANASONIC_VS_B-2" value="33uF / 6.3v" x="-64.77" y="36.83">
+<attribute name="PARTNO" value="EEE-1AA330WAR" x="-64.77" y="36.83" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R47" library="808" package="POTENTIOMETER-CTS296" value="100k Lin" x="-39.37" y="7.62">
+<attribute name="PARTNO" value="296UD104B1N" x="-39.37" y="7.62" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R48" library="SparkFun-Resistors" package="0805" value="1k" x="-53.34" y="67.31">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C19" library="Livestream" package="PANASONIC_VS_B-2" value="0.47uF" x="-17.78" y="50.8"/>
+<element name="C19" library="Livestream" package="PANASONIC_VS_B-2" value="0.47uF" x="-17.78" y="50.8">
+<attribute name="PARTNO" value="UWJ1HR47MCL1GB" x="-17.78" y="50.8" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C20" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="-19.05" y="55.88">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C21" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="-22.86" y="55.88">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="Livestream" package="CUI-352X-SMT" value="AUDIO-JACK-3P" x="-24.13" y="20.32"/>
-<element name="IC2" library="45xx" package="SO14" value="4584D" x="16.51" y="85.09" rot="R270"/>
+<element name="J1" library="Livestream" package="CUI-352X-SMT" value="AUDIO-JACK-3P" x="-24.13" y="20.32">
+<attribute name="PARTNO" value="SJ-3523-SMT-TR" x="-24.13" y="20.32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC2" library="45xx" package="SO14" value="4584D" x="16.51" y="85.09" rot="R270">
+<attribute name="PARTNO" value="BU4584BF-E2" x="16.51" y="85.09" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C22" library="SparkFun-Capacitors" package="0805" value="22nF" x="10.16" y="88.9">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="36.83" y="33.02" size="1.778" layer="27" display="off"/>
 </element>
@@ -981,7 +1007,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R61" library="SparkFun-Resistors" package="0805" value="22k" x="8.89" y="78.74">
 <attribute name="PARTNO" value="RMCF0805FT10K0" x="50.8" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC3" library="linear" package="SO08" value="TL072D" x="16.61" y="76.8" rot="R270"/>
+<element name="IC3" library="linear" package="SO08" value="TL072D" x="16.61" y="76.8" rot="R270">
+<attribute name="PARTNO" value="TL072SG-13" x="16.61" y="76.8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C29" library="SparkFun-Capacitors" package="0805" value="3.3nF" x="8.89" y="74.93" rot="R180">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="-44.45" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -999,11 +1027,14 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="IC4" library="SparkFun-PowerIC" package="SOT23-5" value="5V" x="-24.13" y="50.8">
 <attribute name="PROD_ID" value="VREG-00823" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="MIC5205-5.0YM5 TR" x="-24.13" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C32" library="SparkFun-Capacitors" package="0805" value="470pF" x="-64.77" y="55.88">
 <attribute name="PARTNO" value="C0805C682K5RACTU" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C33" library="Livestream" package="PANASONIC_VS_B-2" value="10uF / 16v" x="24.45" y="10.02" rot="R90"/>
+<element name="C33" library="Livestream" package="PANASONIC_VS_B-2" value="10uF / 16v" x="24.45" y="10.02" rot="R90">
+<attribute name="PARTNO" value="EEE-1VA100WAR" x="24.45" y="10.02" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+15V">
